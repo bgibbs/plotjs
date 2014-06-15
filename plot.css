@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: #eeeeee;
+    border-top: 2px solid #2a4f6f;
+    font-family:sans-serif;
+}
+button:hover {
+    color: orange
+}
+h1 {
+    font-size: 200%;
+}
+#header {
+    border-top: 1px solid #778899;
+    border-bottom: 1px dotted #b2bcc6;
+    text-align: center;
+}
+.nav {
+    position: absolute;
+    top: 6em;
+    left: 0;
+}
+.nav ul {
+    list-style: none;
+    margin-left: 1em;
+    padding-left: 0;
+}
+#nav0 button {
+    width: 12em;
+}
+#nav1, #nav2, #nav3 {
+    display: none;
+} 
+#nav2 textarea {
+    width: 315px;
+    height: 10em;
+}
+#nav4 {
+    width: 300px;
+}
+#content {
+    margin-left: 315px;
+    margin-right: 0em;
+    height: 90%;
+}
+.set {
+    width: 8em;
+}
+canvas {
+    background-color:#000;
+    color:#ddd;
+
+    /*
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    */
+    /* bug? width/height don't take from here*/
+} 
+#buttonarea4 {
+    height: 300px;
+}
+
+.progress {
+    height: 20;
+    border: solid 3px #e1e1e1;
+}
+.progress div{
+    background: #22dd22;
+    height: 100%;
+}

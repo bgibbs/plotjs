@@ -1,0 +1,52 @@
+<!-- vim: set filetype=html:
+-->
+<html>
+<head>
+    <title>Test App</title>
+    <link rel="stylesheet" href="plot.css" type="text/css" />
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="plot.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="header"><h1>Web Plot</h1>
+    </div>
+
+    <div id="content">
+    </div>
+
+    <div class="nav" id="nav0">
+        <ul>
+            <li><button id="point">Point Plot</button></li>
+            <li><button id="date">Date Plot</button></li>
+            <li><button id="heat">Heat Map</button></li>
+            <li><button id="boundary">Nothing yet</button></li>
+        </ul>
+    </div>
+    <div class="nav" id="nav1">
+        <canvas id="canvas1" width="300" height="300"></canvas>
+        <br />
+        <li>Roll to zoom</li>
+        <li>Click+Drag to pan</li>
+        <li>Auto adjusting X/Y axes</li>
+        <button id="close1">Close</button>
+    </div>
+    <div class="nav" id="nav2">
+        <canvas id="canvas2" width="300" height="300"></canvas>
+        <br />
+        <li>Roll to zoom</li>
+        <li>Click+Drag to pan</li>
+        <li>Auto adjusting date scale</li>
+        <button id="close2">Close</button>
+    </div>
+    <div class="nav" id="nav3">
+        <canvas id="canvas3" width="300" height="300"></canvas>
+        <br />
+        <li>Roll to zoom</li>
+        <li>Click+Drag to pan</li>
+        <button id="close3">Close</button>
+    </div>
+    <div class="nav" id="nav6">
+    </div>
+</body>
+</html>
